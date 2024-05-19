@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <title>Listado de Usuario</title>
+</head>
+<body>
+  <p>Esta página web es una página HTML válida.</p>
+</body>
+
+
+</html>

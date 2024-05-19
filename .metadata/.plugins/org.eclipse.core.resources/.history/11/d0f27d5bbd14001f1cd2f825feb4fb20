@@ -1,0 +1,32 @@
+package com.certus;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.certus.model.Usuario;
+import com.certus.repositorio.UsuarioRepositorio;
+
+@SpringBootApplication
+public class CrudApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CrudApplication.class, args);
+	}
+
+	@Autowired
+	private UsuarioRepositorio repositorio;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		Usuario usuario1 = new Usuario("Manuel","Quispe",20,"quispeManuel@gmail.com");
+		repositorio.save(usuario1);
+		
+		Usuario usuario2 = new Usuario("Josue","Mamani",30,"mamani@gmail.com");
+		repositorio.save(usuario2);
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.certus.model;
+
+public class Usuario {
+
+}

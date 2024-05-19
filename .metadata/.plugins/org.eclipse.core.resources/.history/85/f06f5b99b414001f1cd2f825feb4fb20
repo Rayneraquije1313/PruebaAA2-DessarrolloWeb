@@ -1,0 +1,18 @@
+package com.certus.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.certus.model.Usuario;
+
+@Service
+public class UsuarioServicesImpl implements UsuarioServices {
+
+	@Override
+	public List<Usuario> listarUsuarios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

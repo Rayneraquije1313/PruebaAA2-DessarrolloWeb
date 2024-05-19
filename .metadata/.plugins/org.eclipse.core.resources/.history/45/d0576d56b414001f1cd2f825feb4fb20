@@ -1,0 +1,5 @@
+package com.certus.services;
+
+public interface UsuarioServices {
+
+}

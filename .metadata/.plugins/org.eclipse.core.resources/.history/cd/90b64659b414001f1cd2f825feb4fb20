@@ -1,0 +1,5 @@
+package com.certus.repositorio;
+
+public interface UsuarioRepositorio {
+
+}

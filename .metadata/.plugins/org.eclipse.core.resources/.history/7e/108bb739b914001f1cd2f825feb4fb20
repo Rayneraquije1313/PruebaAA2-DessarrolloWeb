@@ -1,0 +1,5 @@
+package com.certus.controller;
+
+public class UsuarioController {
+
+}
